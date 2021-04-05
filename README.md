@@ -7,4 +7,4 @@ USC ID: 2085454571<br>
 In this project, I have implemented a system to deal with resource allocation based on client queries for COVID-19. <br>
 **Phase 1 Boot up the hospitals and scheduler** <br>
 -Hospital A, B and C read the map.txt and construct the location graph. <br>
--
+
