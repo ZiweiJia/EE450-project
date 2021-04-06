@@ -76,5 +76,7 @@ In this project, I have implemented a system to deal with resource allocation ba
   - Scheduler send the final result message (string) like "Increase the occupancy" to the selected hospital.
   
 ## **Idiosyncrasy** <br>
-
+Base on the rule of scheduler server, I cannot deal with the situation that client location equals to hospital location. If I set the distance = 0, I cannot get the score. 
+If I set the distance = None, the scheduler server cannot make sure what happened (Location may be wrong or score = None). So I meet this controdicted situation.
 ## **Reuse Code** <br>
+1. I reuse the implementation of TCP and UDP code from the "Beej's Guide to Network Programming" tutorial.
