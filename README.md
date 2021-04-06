@@ -29,28 +29,28 @@ In this project, I have implemented a system to deal with resource allocation ba
 
 ## **Code Files** <br>
 
-**Client.cpp** <br>
+**client.cpp** <br>
   - Receiver client location parameter. 
   - Create the TCP socket and connect to the scheduler server.
   - Send the client location message to scheduler server and receiver the result.
 
-**Scheduler.cpp** <br>
+**scheduler.cpp** <br>
   - Receiver client location parameter. 
   - Create the TCP socket and connect to the scheduler server.
   - Send the client location message to scheduler server and receiver the result.
   
 
-**Client.cpp** <br>
+**hospitalA.cpp** <br>
   - Receiver client location parameter. 
   - Create the TCP socket and connect to the scheduler server.
   - Send the client location message to scheduler server and receiver the result.
   
-**Client.cpp** <br>
+**hospitalB.cpp** <br>
   - Receiver client location parameter. 
   - Create the TCP socket and connect to the scheduler server.
   - Send the client location message to scheduler server and receiver the result.
 
-**Client.cpp** <br>
+**HospitalC.cpp** <br>
   - Receiver client location parameter. 
   - Create the TCP socket and connect to the scheduler server.
   - Send the client location message to scheduler server and receiver the result.
