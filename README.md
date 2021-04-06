@@ -20,7 +20,10 @@ In this project, I have implemented a system to deal with resource allocation ba
   - The scheduler construct a input message and send it to the available Hospitals.
   - Each available hospital receive the client location information and run Dijkstra  algorithm find the shortest path.
   - Hospital server combine the distance and availability to get the final score.
-  - Hospital server send the score to the scheduler.
-  Phase 4 Reply<br>
-  -
+  - Hospital server send the score to the scheduler.<br>
+  
+**Phase 4 Reply**<br>
+  - Scheduler gets the result from the Hospital server and sorts the distance and score.
+  - Scheduler reply the final result message to client and also send a message to the selected Hospital
+  - The selected Hospital server updates its information (capacity, occupancy).
 
