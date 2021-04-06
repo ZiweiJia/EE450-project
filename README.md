@@ -35,25 +35,30 @@ In this project, I have implemented a system to deal with resource allocation ba
   - Send the client location message to scheduler server and receiver the result.
 
 **scheduler.cpp** <br>
-  - Receiver client location parameter. 
-  - Create the TCP socket and connect to the scheduler server.
-  - Send the client location message to scheduler server and receiver the result.
+  - Creat TCP and UDP sockets for client and hospitals.
+  - Receive the boot up messages(capacity and occupancy) from the hospital.
+  - Receive the client input and send it to the selected hospital.
+  - Get the results from the hospitals and compare the results.
+  - Send the final result to client and the selected hospital server.
   
 
 **hospitalA.cpp** <br>
-  - Receiver client location parameter. 
-  - Create the TCP socket and connect to the scheduler server.
-  - Send the client location message to scheduler server and receiver the result.
+  - Read the map.txt and construct the location graph. 
+  - Set up the UDP socket and receive the client input data from the hosptial server.
+  - Calculate the shortest distcance between client location and server location by Dijkstra algorithm.
+  - Calculate the Score and return it back to the scheduler server.
   
 **hospitalB.cpp** <br>
-  - Receiver client location parameter. 
-  - Create the TCP socket and connect to the scheduler server.
-  - Send the client location message to scheduler server and receiver the result.
+  - Read the map.txt and construct the location graph. 
+  - Set up the UDP socket and receive the client input data from the hosptial server.
+  - Calculate the shortest distcance between client location and server location by Dijkstra algorithm.
+  - Calculate the Score and return it back to the scheduler server.
 
 **HospitalC.cpp** <br>
-  - Receiver client location parameter. 
-  - Create the TCP socket and connect to the scheduler server.
-  - Send the client location message to scheduler server and receiver the result.
+  - Read the map.txt and construct the location graph. 
+  - Set up the UDP socket and receive the client input data from the hosptial server.
+  - Calculate the shortest distcance between client location and server location by Dijkstra algorithm.
+  - Calculate the Score and return it back to the scheduler server.
 
 **Makefile** <br>
   - Receiver client location parameter. 
