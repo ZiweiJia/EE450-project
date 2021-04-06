@@ -55,7 +55,7 @@ In this project, I have implemented a system to deal with resource allocation ba
   - Create the TCP socket and connect to the scheduler server.
   - Send the client location message to scheduler server and receiver the result.
 
-**Client.cpp** <br>
+**Makefile** <br>
   - Receiver client location parameter. 
   - Create the TCP socket and connect to the scheduler server.
   - Send the client location message to scheduler server and receiver the result.
