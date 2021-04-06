@@ -1,4 +1,4 @@
-#**EE450 Socket Programming Project** <br>
+# **EE450 Socket Programming Project** <br>
 ## **Personal Information** <br>
 Full Name: Ziwei Jia<br>
 USC ID: 2085454571<br>
