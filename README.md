@@ -13,7 +13,10 @@ In this project, I have implemented a system to deal with resource allocation ba
 
 **Phase 2 Forward stage**<br>
   - The client send the query to the scheduler server.
-  - The Scheduler server receive the query and decide the hospitals that still have availablity.<br>
+  - The Scheduler server receive the query and decide the hospitals that still have availablity. <br>
+  
+
 **Phase 3 Scoring**<br>
-  - 
-  - 
+
+  
+
