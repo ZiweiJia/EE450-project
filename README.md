@@ -66,13 +66,14 @@ In this project, I have implemented a system to deal with resource allocation ba
 ## **Message exchange** <br>
 
 **Between Client and Scheduler** <br>
-  - Scheduler set up the UDP socket and wait for the boot-up message from hospitals. 
-  - Hospital A, B and C read the map.txt and construct the location graph. 
-  - Construct a data structure to store the capacity and occupancy of hospitals for book-keep the availability of hospitals.
+  - The client sent the client location message (string) like "123" to scheduler server.  
+  - Scheduler send the final result (string) like "A" to client. 
 
 **Between Scheduler and Hospital**<br>
-  - The client send the query to the scheduler server.
-  - The Scheduler server receive the query and decide the hospitals that still have availablity. <br>
+  - The scheduler send the client location message (string) like "123" to scheduler server.
+  - Hospitals send the boot-up message (string) include capacity and occupancy like "456|789".
+  - Hospital send the score and distance message (string) like "0.0056|670.467317631".
+  - Scheduler send the final result message (string) like "Increase the occupancy" to the selected hospital.
   
 ## **Idiosyncrasy** <br>
 
