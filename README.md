@@ -62,3 +62,18 @@ In this project, I have implemented a system to deal with resource allocation ba
 
 **Makefile** <br>
   - Execute the set of the tasks above.
+  
+## **Message exchange** <br>
+
+**Between Client and Scheduler** <br>
+  - Scheduler set up the UDP socket and wait for the boot-up message from hospitals. 
+  - Hospital A, B and C read the map.txt and construct the location graph. 
+  - Construct a data structure to store the capacity and occupancy of hospitals for book-keep the availability of hospitals.
+
+**Between Scheduler and Hospital**<br>
+  - The client send the query to the scheduler server.
+  - The Scheduler server receive the query and decide the hospitals that still have availablity. <br>
+  
+## **Idiosyncrasy** <br>
+
+## **Reuse Code** <br>
