@@ -1,4 +1,3 @@
-# **EE450 Socket Programming Project** <br>
 ## **Personal Information** <br>
 Full Name: Ziwei Jia<br>
 USC ID: 2085454571<br>
@@ -27,3 +26,25 @@ In this project, I have implemented a system to deal with resource allocation ba
   - Scheduler reply the final result message to client and also send a message to the selected Hospital
   - The selected Hospital server updates its information (capacity, occupancy).
 
+## **Code Files** <br>
+
+**Client.cpp** <br>
+  - Receiver client location parameter. 
+  - Create the TCP socket and connect to the scheduler server.
+  - Send the client location message to scheduler server and receiver the result.
+
+**Scheduler.cpp**<br>
+  - 
+  - The Scheduler server receive the query and decide the hospitals that still have availablity. <br>
+  
+
+**Phase 3 Scoring**<br>
+  - The scheduler construct a input message and send it to the available Hospitals.
+  - Each available hospital receive the client location information and run Dijkstra  algorithm find the shortest path.
+  - Hospital server combine the distance and availability to get the final score.
+  - Hospital server send the score to the scheduler.<br>
+  
+**Phase 4 Reply**<br>
+  - Scheduler gets the result from the Hospital server and sorts the distance and score.
+  - Scheduler reply the final result message to client and also send a message to the selected Hospital
+  - The selected Hospital server updates its information (capacity, occupancy).
