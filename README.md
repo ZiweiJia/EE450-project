@@ -30,7 +30,7 @@ In this project, I have implemented a system to deal with resource allocation ba
 ## **Code Files** <br>
 
 **client.cpp** <br>
-  - Receiver client location parameter. 
+  - Receive client location parameter. 
   - Create the TCP socket and connect to the scheduler server.
   - Send the client location message to scheduler server and receiver the result.
 
