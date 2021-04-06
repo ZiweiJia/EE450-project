@@ -34,7 +34,7 @@ In this project, I have implemented a system to deal with resource allocation ba
   - Create the TCP socket and connect to the scheduler server.
   - Send the client location message to scheduler server and receiver the result.
 
-** Scheduler.cpp **<br>
+**Scheduler.cpp**<br>
   - 
   - The Scheduler server receive the query and decide the hospitals that still have availablity. <br>
   
